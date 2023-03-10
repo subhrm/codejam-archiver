@@ -1,0 +1,38 @@
+{
+  "name": "codejam-archiver",
+  "version": "1.0.0",
+  "description": "Scrape and archive code-jam problems and analysis",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subhrm/codejam-archiver"
+  },
+  "keywords": [
+    "codejam"
+  ],
+  "author": "subhendu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhrm/codejam-archiver/issues"
+  },
+  "homepage": "https://github.com/subhrm/codejam-archiver#readme",
+  "devDependencies": {
+    "@types/async": "^3.2.18",
+    "@types/eslint": "^8.21.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "puppeteer": "^19.7.3"
+  }
+}
